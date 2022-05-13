@@ -322,7 +322,7 @@ def confusion_matrix(y_test, y_pred):
 
 def _test():
 
-    df = pd.read_csv('wine-tasting.csv')
+    df = pd.read_csv('breast_cancer.csv')
 
     #X = df.drop(['diagnosis'], axis=1).to_numpy()
     #y = df['diagnosis'].apply(lambda x: 0 if x == 'M' else 1).to_numpy()
